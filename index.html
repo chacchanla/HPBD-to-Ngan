@@ -74,7 +74,7 @@
 
 <div class="container" id="loginBox">
   <h1>Nhập mật khẩu</h1>
-  <p>(tên người tặng viết thường không dấu)</p>chỉ được nhập 1 lần duy nhất</p>
+  <p>(ngày sinh người tặng)</p>chỉ được nhập 1 lần duy nhất</p>
   <input type="password" id="passwordInput" maxlength="4">
   <br>
   <button onclick="checkPassword()">Mở thư</button>
@@ -101,7 +101,7 @@
 </div>
 
 <script>
-  const correctPassword = "hung"; // đổi mật khẩu tại đây
+  const correctPassword = "15"; // đổi mật khẩu tại đây
   function checkPassword() {
     const input = document.getElementById("passwordInput").value;
     const errorMsg = document.getElementById("errorMsg");
